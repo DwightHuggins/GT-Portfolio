@@ -1,0 +1,129 @@
+/* Table of Contents
+  1. Body
+  2. Nav Bar
+  3. Main Container
+  4. Images
+  5. Paragraph in About Me
+  6. Contact Info
+  7. Button
+  8. Footer
+     */
+
+
+
+/* 1. Body  */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    padding-bottom: 80px;
+  }
+  
+  /* 2. Nav Bar  */
+  .navbar {
+    opacity: .7;
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: #66FCF1;
+  }
+  .navbar-dark .navbar-nav .active .nav-link {
+    color: #66FCF1;
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28102, 252, 241, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  /* 3. Main Container  */
+  .main {
+    min-height: 100vh;
+   overflow: hidden;
+   display: block;
+   position: relative;
+   padding-bottom: 100px;
+  }
+  
+  .card {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.090) !important;
+  }
+  
+  
+  h2 {
+    color:#66FCF1;
+  }
+  
+  .img-thumbnail {
+    margin-right: 10px;
+    padding: .25rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    max-width: 55%;
+    height: auto;
+  }
+  
+  .img-fluid {
+    height:100%;
+    width:auto;
+  }
+  
+  /* 5. Paragrah in About Me  */
+  p {
+    color: #fff;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .img-thumbnail {
+    height: 200px;
+    width: 200px;
+  }
+  
+  /* 6. Contact Info */
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    color:#66FCF1 !important;
+  }
+  
+  i {
+    vertical-align: middle;
+    padding-top: 10px;
+  }
+  
+  div {
+    padding-top: 10px;
+    text-decoration: inherit;
+  }
+  
+  a[href^="tel:"] {
+    color:#66FCF1;
+    text-decoration: inherit;
+  }
+  .fa {
+    color: #66FCF1;
+  }
+  
+  
+  /* 8. Footer  */
+  footer {
+    position: fixed;
+    height: 50px;
+    line-height: 30px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    font-size: small;
+    opacity: .7;
+    background-color: dimgray;
+    color: lightslategray;
+    border-top: 5px solid #66FCF1;
+  }
